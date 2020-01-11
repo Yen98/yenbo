@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		function displaydate(){
+			document.getElementById("showdate").innerHTML = Date();
+		}
+	</script>
+	<style>
+		body {
+  			background-color: lightblue;
+		}
+		h3 {
+			text-align: center;
+		}
+		h1 {
+  			color: white;
+		}
+
+		p {
+  			font-family: verdana;
+  			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h3>My page</h3>
+	<p>if you want to know the time,please click "time"</p>
+	<button type="buttom" onclick = "displaydate()">time</button>
+	<p id="showdate"></p>
+	<h1>About me</h1>
+	<ul style="list-style-type:circle;">
+		<li>name : Yen Bo Chang</li>
+		<li>birthday : 2000/09/08</li>
+		<li>phone number : 0938773435</li>
+	</ul>
+	<p>three things i like to do</p>
+	<ol>
+		<li>sleeping</li>
+		<li>watching movie</li>
+		<li>reading novel</li>
+	</ol>
+	
+</body>
+</html>
